@@ -4,9 +4,16 @@ how to use
   get arduino ide
   
   install these dependencies on arduino library manager
+
+  
   #include <ESP8266WiFi.h>
+  
   #include <WiFiClientSecure.h>
+  
+  
   #include <ESP8266HTTPClient.h>
+  
+  
   #include <ArduinoJson.h>
 
   use this tutorial to get the dependencies to code a esp8266 using arduino ide
