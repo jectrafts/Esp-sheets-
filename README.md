@@ -17,10 +17,17 @@ how to use
   #include <ArduinoJson.h>
 
   use this tutorial to get the dependencies to code a esp8266 using arduino ide
+
+  
   https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide
 
    replace these with the required
+
+
+   
   const char* ssid = "wifi ssid";
+
+  
   const char* password = "passowrd";
 
   open a google sheet and name it whatever u want
@@ -39,6 +46,7 @@ how to use
   <img width="727" height="309" alt="image" src="https://github.com/user-attachments/assets/3d6ab7c9-3ad5-4789-ab3d-731afce1a59f" />
 
  u will see code.gs put youre desired code here
+ 
  we will start by setting up the receiver
 
  copy receiver pull code.gs here which pulls value of b1 ,b2,b3 simultaneously
@@ -74,13 +82,16 @@ u might get this
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7bee8d1e-dbf1-432f-9fe4-be045b830429" />
 
 this is common for authorizing google app scripts
+
 click advanced 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06d72dc7-99d7-4fef-853a-a5ac7ec0b07c" />
 
 and allow
 
 u will get a web app url this is important
+
 copy this down and replace it here in the arduino code
+
 (make sure to have no spaces before and after)
 
 const char* url = "url";
@@ -96,13 +107,19 @@ now connect up your receiver according to this diagram
  now for the trans mitter
 
  noww repeat the same process with the b1.gs code ( just click app scripts and redo the process dont woryy it doersnt delete the code of the receiver it just makes a new code )
+ 
  now that u have the url for the transmitter
+ 
  replace this in the transmitter.ino code with the url 
+ 
  const char* b1= "url";
+ 
  repeat for b3.gs
+ 
 const char* b3 ="url";
 
 and for b2.gs
+
 const char* sr2 = "url";
 
 follow this wiring diagram for the transmitter
@@ -112,6 +129,8 @@ follow this wiring diagram for the transmitter
 **
  
 now u should be done jsut turn both of them on wait 10 seconds for it to connect to the internet
-and fire away(fyi the first button press sets the cell to on )
+
+and fire away
+(fyi the first button press sets the cell to on )
  
 
