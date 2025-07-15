@@ -80,8 +80,31 @@ const char* url = "url";
 
 now connect up your receiver according to this diagram
 
+<img width="1085" height="610" alt="image" src="https://github.com/user-attachments/assets/1e340d2e-948b-430f-868d-a6d236ccb55b" />
 
 
+ attach a thread to the servo and stick it to the switch 
+ make it so tht=t the servo hits the switch when set to 0 and pulls away maximum possible when set to 180 so that it plls the switch and turns on the switch  ( usually when setting a servo to 180 using an arduino it moves 90 degrees from 0 degrees position)
 
+ now for the trans mitter
+
+ noww repeat the same process with the b1.gs code ( just click app scripts and redo the process dont woryy it doersnt delete the code of the receiver it just makes a new code )
+ now that u have the url for the transmitter
+ replace this in the transmitter.ino code with the url 
+ const char* b1= "url";
+ repeat for b3.gs
+const char* b3 ="url";
+
+and for b2.gs
+const char* sr2 = "url";
+
+follow this wiring diagram for the transmitter
+
+
+**<img width="1042" height="524" alt="image" src="https://github.com/user-attachments/assets/5f4adb59-c19c-4860-8352-6f04101eb648" />
+**
+ 
+now u should be done jsut turn both of them on wait 10 seconds for it to connect to the internet
+and fire away(fyi the first button press sets the cell to on )
  
 
