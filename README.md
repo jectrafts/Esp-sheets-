@@ -1,3 +1,6 @@
+
+
+
 # Esp-sheets-
  a  way for u too use an esp to edit and read  a google sheet
 how to use
@@ -132,5 +135,7 @@ now u should be done jsut turn both of them on wait 10 seconds for it to connect
 
 and fire away
 (fyi the first button press sets the cell to on )
+
  
+https://github.com/user-attachments/assets/ea4c5859-1984-4061-bea4-26169e73336c
 
